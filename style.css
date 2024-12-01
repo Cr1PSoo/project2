@@ -855,3 +855,80 @@ nav a {
 .law-que p:last-of-type {
     color: rgba(47, 43, 67, 0.5);
 }
+
+.lawyers-questions {
+    margin-left: 20px;
+    padding: 40px;
+    background-color: #33836E;
+    border-radius: 20px;
+}
+
+.lawyers-questions > div > h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.lawyers-questions > div > p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-top: 10px;
+}
+
+.problem-input {
+    height: 210px;
+    width: 577px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.problem-input::placeholder {
+   top: 12px;
+   left: 16px;
+   position: absolute;
+   font-size: 16px;
+   font-weight: 400;
+   color: rgba(47, 43, 67, 0.5);
+}
+
+.lawyers-input input {
+    height: 56px;
+    width: 205px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    position: relative;
+}
+
+.lawyers-input input::placeholder {
+    position: absolute;
+    top: 7px;
+    left: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(47, 43, 67, 0.4);
+}
+
+.lawyers-input button {
+    padding: 16px 24px;
+    background-color: #140A32;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    line-height: 21.79px;
+}
+
+.law-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+
+    margin-top: 15px;
+}
